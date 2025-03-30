@@ -226,7 +226,6 @@ document.getElementById('formCrearAutor').addEventListener('submit', function(e)
             modal.hide();
             this.reset();
 
-            alert('Autor creado exitosamente');
         } else {
             alert('Error: ' + data.message);
         }
@@ -263,7 +262,6 @@ document.getElementById('formCrearCategoria').addEventListener('submit', functio
             modal.hide();
             this.reset();
 
-            alert('Categoría creada exitosamente');
         } else {
             alert('Error: ' + data.message);
         }
